@@ -18,6 +18,8 @@ public class Recommendation {
 
     private String activityId;
 
+    private String type;
+
     private String userId;
 
     private String recommendation;
