@@ -5,9 +5,12 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/pjava3-fitness-user-db
     username: postgres
-    password: Pass
+    password: Pass(0)
 
   jpa:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8081
