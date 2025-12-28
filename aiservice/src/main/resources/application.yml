@@ -16,6 +16,10 @@ spring:
         spring.json.use.type.headers: false
         spring.json.value.default.type: com.gcloud.pjava3fitness.aiservice.model.Activity
         spring.json.trusted.packages: "*"
+gemini:
+  api:
+    url: ${GEMINI_URL}
+    key: ${GEMINI_KEY}
 
 kafka:
   topic:
