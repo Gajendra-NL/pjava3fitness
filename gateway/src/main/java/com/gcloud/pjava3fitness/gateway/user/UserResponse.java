@@ -1,4 +1,4 @@
-package com.gcloud.pjava3fitness.userservice.dto;
+package com.gcloud.pjava3fitness.gateway.user;
 
 import lombok.Data;
 

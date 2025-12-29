@@ -1,4 +1,4 @@
-package com.gcloud.pjava3fitness.userservice.dto;
+package com.gcloud.pjava3fitness.gateway.user;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -11,11 +11,11 @@ public class RegisterRequest {
     @Email(message = "Invalid email")
     private String email;
 
-    private String keycloakId;
-
     @NotBlank(message = "Password is required")
     @Size(min = 6, message = "Password must have at least 6 characters")
     private String password;
+
+    private String keycloakId;
 
     private String firstName;
     private String lastName;
